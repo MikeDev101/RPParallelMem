@@ -192,7 +192,6 @@ class ParallelMem:
                     if not addr in bad_addrs:
                         bad_addr += 1
                         bad_addrs.append(addr)
-        print("100%!")
         return bad_addr, bad_addrs
     
     def clear(self):
