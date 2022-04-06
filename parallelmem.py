@@ -184,14 +184,6 @@ class ParallelMem:
         bad_addrs = []
         for addr in range(0x00, self.max_mem):
             self.address(addr)
-            
-            if int(addr) == int((self.max_mem)//4):
-                print("25%...")
-            if int(addr) == int((self.max_mem)//2):
-                print("50%...")
-            if int(addr) == int((self.max_mem)//1.5):
-                print("75%...")
-            
             for sample in [0b10101010, 0b01010101, 0b11111111, 0b00000000]:
                 self.write(sample)
                 data_back = self.read()
