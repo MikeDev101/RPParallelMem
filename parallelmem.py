@@ -30,7 +30,7 @@ class ParallelMem:
         self.addr_9 = Pin(8, Pin.OUT)
         self.addr_10 = Pin(7, Pin.OUT)
         self.addr_11 = Pin(6, Pin.OUT)
-        print("Specifying {0} as maximum memory address".format(str(hex(self.max_mem))))
+        #print("Specifying {0} as maximum memory address".format(str(hex(self.max_mem))))
 
         # 8-Bit Data Lines
         self.data_0 = Pin(28, Pin.IN)
