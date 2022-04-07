@@ -7,3 +7,9 @@ A parallel RAM/ROM/IO driver for MicroPython on the Raspberry Pi Pico.
 * Program parallel flash memory
 
 ## See main.py for more details.
+
+
+## Changelog
+| Version | Info |
+| ------- | ---- |
+| v1.0 | Initial commit. |
